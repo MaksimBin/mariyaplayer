@@ -10,7 +10,7 @@ const playLists = [
   ]
 
 const colors = [
-        "mari2.jpg",
+        "mari5.png",
         "mari3.png",
         "mari-gif.gif",
         "mari5.png",
