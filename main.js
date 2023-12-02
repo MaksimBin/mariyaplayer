@@ -1,35 +1,35 @@
 const playLists = [
-  "/audio/T1.mp3",
-  "/audio/T2.mp3",
-  "/audio/T3.mp3",
-  "/audio/T4.mp3",
-  "/audio/T5.mp3",
-  "/audio/T6.mp3",
-  "/audio/T7.mp3",
-  "/audio/T8.mp3",
+  "T1.mp3",
+  "T2.mp3",
+  "T3.mp3",
+  "T4.mp3",
+  "T5.mp3",
+  "T6.mp3",
+  "T7.mp3",
+  "T8.mp3",
   ]
 
 const colors = [
-        "/image/mari5.png",
-        "/image/mari3.png",
-        "/image/mari-gif.gif",
-        "/image/mari5.png",
-        "/image/mari6.png",
-        "/image/mari2.jpg",
-        "/image/mari-gif1.gif",
-        "/image/mari2.jpg",
-        "/image/mari3.png",
+        "mari5.png",
+        "mari3.png",
+        "mari-gif.gif",
+        "mari5.png",
+        "mari6.png",
+        "mari2.jpg",
+        "mari-gif1.gif",
+        "mari2.jpg",
+        "mari3.png",
     ]
 
 const images = [
 "Logo1.jpg",
-"foto/IMG_20231130_141514.jpg",
+"IMG_20231130_141514.jpg",
 "Logo2.png",
 "/IMG_20231202_111315.jpg",
-"/foto/IMG_20231130_141514.jpg",
-"/foto/IMG_20231130_141514.jpg",
-"/foto/IMG_20231130_141514.jpg",
-"/foto/IMG_20231130_141514.jpg",
+"IMG_20231130_141514.jpg",
+"IMG_20231130_141514.jpg",
+"IMG_20231130_141514.jpg",
+"IMG_20231130_141514.jpg",
 "Logo1.jpg"
    ]
 
@@ -85,7 +85,7 @@ document.getElementById('button').innerHTML = `<button style="width:100px;
 const modal = () => {
 
   document.getElementById('div').innerHTML = playLists.map((x, index) => `<div onclick="playModal('${x}', '${index}')" style=" box-shadow: 0px 0px 15px 5px black;margin-top:8px;display: flex; justify-content:  space-between;background-color:white;border:solid black 1px;margin-left:5px;margin-right:10px;border-radius:27px;align-items: center;">
-    <img src='/image/pngwing.com.png' alt="" width="50px" height="50px" style="border-radius:50%;">
+    <img src='pngwing.com.png' alt="" width="50px" height="50px" style="border-radius:50%;">
     <button type"button"  style="color:black;font-size:14px;border-style:none;background-color:white;font-weight: bold;width:250px;">${x}</button>
     <div style="background-color:black;color:white;border-radius:50%;width:50px;height:50px;"><div style="margin-top:15px;">${index + 1}</div></div>
   </div>`)
