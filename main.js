@@ -23,13 +23,13 @@ const colors = [
 
 const images = [
 "Logo1.jpg",
-"IMG_20231130_141514.jpg",
+"Img1.jpg",
 "Logo2.png",
-"/IMG_20231202_111315.jpg",
-"IMG_20231130_141514.jpg",
-"IMG_20231130_141514.jpg",
-"IMG_20231130_141514.jpg",
-"IMG_20231130_141514.jpg",
+"Img2.jpg",
+"Img1.jpg",
+"Img2.jpg",
+"Img1.jpg",
+"Img2.jpg",
 "Logo1.jpg"
    ]
 
