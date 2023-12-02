@@ -22,7 +22,7 @@ const colors = [
     ]
 
 const images = [
-"gif12.gif",
+"Logo1.jpg",
 "Img1.jpg",
 "Logo2.png",
 "Img2.jpg",
@@ -30,7 +30,7 @@ const images = [
 "Img2.jpg",
 "Img1.jpg",
 "Img2.jpg",
-"Logo1.jpg"
+"gif12.gif"
    ]
 
 const randomTexts = [
